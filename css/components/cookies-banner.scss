@@ -1,0 +1,67 @@
+@import '../color.scss';
+
+.cookies-banner-container {
+	background-color: white;
+	border-radius: 5px;
+	margin: 2em;
+	max-width: 600px;
+	padding: 2em;
+	
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	
+	position: fixed;
+	bottom: 0;
+  right: 0;
+	
+	z-index: 2;
+	
+	.cookies-title {
+		font-weight: bold;
+		margin-bottom: 1em;
+		font-size: 1.2em;
+	}
+	
+	.cookies-paragraph {
+		font-weight: normal;
+		color: $fontColor2;
+		font-size: 0.9em;
+    margin-top: -0.6em;
+    line-height: 1.6em;
+		text-align: justify;
+	}
+	
+	.cookies-image {
+		width: 50px;
+    margin-left: -2em;
+    margin-bottom: -2em;
+    margin-top: -2em;
+    margin-right: 2em;
+    padding: 2em;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f6f8fc;
+	}
+	
+	.cookies-image img {
+		position: absolute;
+    width: 120px;
+    top: -15px;
+    left: -20px;
+	}
+	
+	.cookies-close {
+		font-weight: normal;
+    color: #cecece;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+		transition: color 0.2s;
+		
+		&:hover {
+			background-color: white;
+			color: $fontColor;
+		}
+	}
+	
+}

@@ -1,0 +1,102 @@
+@import '../color.scss';
+
+.post-container {
+	width: 260px;
+	margin: 40px;
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	padding: 40px;
+	background-color: white;
+	
+	.post-title {
+		text-align: center;
+		font-family: 'Alatsi', sans-serif;
+		text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: -0.5em;
+    color: black;
+	}
+	
+	.post-under-title {
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    font-family: unset;
+    font-weight: 100;
+	}
+	
+	hr {
+		margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0px;
+    border-bottom: 1px solid $fontColor;
+	}
+	
+	.post-paragraph {
+		text-align: justify;
+		color: $fontColor2;
+    font-size: 0.9em;
+    line-height: 1.4em;
+	}
+}
+
+.period-container {
+	  max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+	  height: 50px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    display: flex;
+	
+	.period-from {
+		width: calc(50% - 20px);
+    border-right: 1px solid #9296b1;
+    margin-right: 20px;
+		
+	}
+	
+	.period-icon {
+		margin-right: 5px;
+		color: $fontColor2;
+	}
+	
+	.period-title {
+			margin-bottom: 0.7em;
+    	font-weight: bold;
+		}
+	
+	.period-to {
+		width: 50%;
+	}
+}
+
+.btn-normal {
+	background-color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+	color: $primary;
+	border-radius: 5px;
+	border: 1px solid $primary;
+	padding: 15px 25px 15px 25px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	transition: 0.2s;
+	outline: none;
+	text-align: center;
+
+	&:hover, &:focus {
+		background-color: darken($primary, 0%);
+		border-color: darken($primary, 0%);
+		color: #ffffff;
+	}
+	
+	&:active {
+		background-color: darken($primary, 10%);
+		border-color: darken($primary, 10%);
+		color: #ffffff;
+	}
+}

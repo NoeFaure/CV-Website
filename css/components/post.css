@@ -1,0 +1,91 @@
+/* line 3, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.post-container {
+  width: 260px;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  background-color: white; }
+  /* line 11, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-title {
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: -0.5em;
+    color: black; }
+  /* line 21, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-under-title {
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    font-family: unset;
+    font-weight: 100; }
+  /* line 29, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0px;
+    border-bottom: 1px solid #2a2a3f; }
+  /* line 36, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-paragraph {
+    text-align: justify;
+    color: #93939e;
+    font-size: 0.9em;
+    line-height: 1.4em; }
+
+/* line 44, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.period-container {
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+  height: 50px;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: white;
+  display: flex; }
+  /* line 56, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-from {
+    width: calc(50% - 20px);
+    border-right: 1px solid #9296b1;
+    margin-right: 20px; }
+  /* line 63, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-icon {
+    margin-right: 5px;
+    color: #93939e; }
+  /* line 68, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-title {
+    margin-bottom: 0.7em;
+    font-weight: bold; }
+  /* line 73, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-to {
+    width: 50%; }
+
+/* line 78, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.btn-normal {
+  background-color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  color: #00bfff;
+  border-radius: 5px;
+  border: 1px solid #00bfff;
+  padding: 15px 25px 15px 25px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  outline: none;
+  text-align: center; }
+  /* line 91, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .btn-normal:hover, .btn-normal:focus {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: #ffffff; }
+  /* line 97, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .btn-normal:active {
+    background-color: #0099cc;
+    border-color: #0099cc;
+    color: #ffffff; }
+
+/*# sourceMappingURL=post.css.map */

@@ -1,0 +1,998 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+/* line 3, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+.cookies-banner-container {
+  background-color: white;
+  border-radius: 5px;
+  margin: 2em;
+  max-width: 600px;
+  padding: 2em;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2; }
+  /* line 19, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.2em; }
+  /* line 25, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-paragraph {
+    font-weight: normal;
+    color: #93939e;
+    font-size: 0.9em;
+    margin-top: -0.6em;
+    line-height: 1.6em;
+    text-align: justify; }
+  /* line 34, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-image {
+    width: 50px;
+    margin-left: -2em;
+    margin-bottom: -2em;
+    margin-top: -2em;
+    margin-right: 2em;
+    padding: 2em;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f6f8fc; }
+  /* line 45, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-image img {
+    position: absolute;
+    width: 120px;
+    top: -15px;
+    left: -20px; }
+  /* line 52, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-close {
+    font-weight: normal;
+    color: #cecece;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+    transition: color 0.2s; }
+    /* line 61, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+    .cookies-banner-container .cookies-close:hover {
+      background-color: white;
+      color: #2a2a3f; }
+
+/* line 3, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.post-container {
+  width: 260px;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  background-color: white; }
+  /* line 11, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-title {
+    text-align: center;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: -0.5em;
+    color: black; }
+  /* line 21, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-under-title {
+    font-family: 'Alatsi', sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    font-family: unset;
+    font-weight: 100; }
+  /* line 29, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0px;
+    border-bottom: 1px solid #2a2a3f; }
+  /* line 36, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .post-container .post-paragraph {
+    text-align: justify;
+    color: #93939e;
+    font-size: 0.9em;
+    line-height: 1.4em; }
+
+/* line 44, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.period-container {
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+  height: 50px;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: white;
+  display: flex; }
+  /* line 56, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-from {
+    width: calc(50% - 20px);
+    border-right: 1px solid #9296b1;
+    margin-right: 20px; }
+  /* line 63, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-icon {
+    margin-right: 5px;
+    color: #93939e; }
+  /* line 68, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-title {
+    margin-bottom: 0.7em;
+    font-weight: bold; }
+  /* line 73, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .period-container .period-to {
+    width: 50%; }
+
+/* line 78, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+.btn-normal {
+  background-color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  color: #00bfff;
+  border-radius: 5px;
+  border: 1px solid #00bfff;
+  padding: 15px 25px 15px 25px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  outline: none;
+  text-align: center; }
+  /* line 91, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .btn-normal:hover, .btn-normal:focus {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: #ffffff; }
+  /* line 97, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/post.scss */
+  .btn-normal:active {
+    background-color: #0099cc;
+    border-color: #0099cc;
+    color: #ffffff; }
+
+/* line 8, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2a2a3f;
+  background-color: white; }
+
+/* line 16, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#hero-section {
+  background-color: #00bfff;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  position: relative; }
+
+/* line 25, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.my-name {
+  font-size: 5em;
+  position: absolute;
+  font-family: 'Alatsi', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  top: 2em;
+  left: 20%;
+  padding: 20px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.09); }
+
+/* line 38, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.post-container {
+  position: absolute;
+  right: 0; }
+
+/* line 43, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.period-container {
+  position: absolute;
+  bottom: -85px; }
+
+/* line 48, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.linkedin {
+  position: absolute;
+  font-size: 2.5em;
+  top: 40px;
+  color: white;
+  left: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: scale(1); }
+  /* line 58, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .linkedin:hover {
+    transform: scale(1.5); }
+
+/* line 63, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#post-definition {
+  padding: 100px 40px 70px 40px; }
+  /* line 66, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #post-definition h1 {
+    font-size: 1.7em;
+    margin-left: 10px;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase; }
+  /* line 73, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #post-definition p {
+    width: 65%;
+    margin-left: 10px;
+    margin-top: 25px;
+    color: #93939e;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    letter-spacing: 0.04em;
+    text-align: justify;
+    position: relative; }
+    /* line 84, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #post-definition p .signature {
+      position: absolute;
+      right: 0;
+      margin-top: 30px;
+      color: #292a3f;
+      font-style: italic; }
+
+/* line 94, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#cv-section {
+  background-color: #2a2a38;
+  padding: 60px 40px 40px 40px;
+  height: 800px; }
+  /* line 99, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #cv-section h1 {
+    font-size: 1.7em;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase; }
+
+/* line 109, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#software-section {
+  padding: 60px 40px 40px 40px; }
+  /* line 112, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #software-section h1 {
+    font-size: 1.7em;
+    margin-left: 10px;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase; }
+  /* line 119, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #software-section .software-container {
+    padding: 40px;
+    display: flex; }
+    /* line 123, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .techno {
+      width: max-content;
+      padding: 30px; }
+    /* line 128, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container img {
+      width: 80px;
+      height: 80px;
+      transition: 0.2s;
+      cursor: pointer;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+      /* line 139, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+      #software-section .software-container img:hover {
+        transform: scale(1.2); }
+    /* line 144, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .techno-name {
+      text-align: center;
+      font-weight: bold;
+      color: #2a2a3f; }
+    /* line 150, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .techno-master {
+      text-align: center;
+      color: #93939e;
+      margin-top: 10px;
+      line-height: 1.3em;
+      font-weight: lighter; }
+    /* line 158, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .techno-bar {
+      background-color: #e9edf2;
+      height: 5px;
+      border-radius: 5px;
+      margin-top: 15px; }
+    /* line 165, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .ror-exception {
+      margin-top: 20px; }
+    /* line 169, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .skill-load {
+      height: 5px;
+      border-radius: 5px;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards; }
+    /* line 177, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .label {
+      text-align: center;
+      font-size: 0.8em;
+      margin-top: 10px;
+      color: #a19faa; }
+    /* line 184, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .html {
+      width: 90%;
+      background-color: #00bfff;
+      animation-name: html; }
+    /* line 185, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .sass {
+      width: 75%;
+      background-color: #00bfff;
+      animation-name: sass; }
+    /* line 186, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .javascript {
+      width: 55%;
+      background-color: #00bfff;
+      animation-name: javascript; }
+    /* line 187, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .ror {
+      width: 30%;
+      background-color: #00bfff;
+      animation-name: ror; }
+    /* line 188, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .photoshop {
+      width: 85%;
+      background-color: #00bfff;
+      animation-name: photoshop; }
+    /* line 189, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #software-section .software-container .illustrator {
+      width: 30%;
+      background-color: #00bfff;
+      animation-name: illustrator; }
+
+@keyframes html {
+  0% {
+    width: 0px; }
+  100% {
+    width: 90%; } }
+
+@keyframes sass {
+  0% {
+    width: 0px; }
+  100% {
+    width: 75%; } }
+
+@keyframes javascript {
+  0% {
+    width: 0px; }
+  100% {
+    width: 55%; } }
+
+@keyframes ror {
+  0% {
+    width: 0px; }
+  100% {
+    width: 30%; } }
+
+@keyframes photoshop {
+  0% {
+    width: 0px; }
+  100% {
+    width: 85%; } }
+
+@keyframes illustrator {
+  0% {
+    width: 0px; }
+  100% {
+    width: 30%; } }
+
+/* line 223, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.shape-one {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  opacity: 0.3; }
+
+/* line 230, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.shape-two {
+  position: absolute;
+  transform: rotate(180deg);
+  right: 0;
+  width: 500px;
+  opacity: 0.3; }
+
+/* line 238, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#interest-section {
+  padding: 60px 40px 40px 40px;
+  height: 600px;
+  background-color: #292938; }
+  /* line 243, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #interest-section .interest-container {
+    display: flex;
+    justify-content: center; }
+  /* line 248, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #interest-section h1 {
+    font-size: 1.7em;
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase; }
+  /* line 256, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #interest-section .figure {
+    height: 30%;
+    background-color: #229bff;
+    background-image: linear-gradient(141deg, #45d1ff 0%, #229cff 75%);
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; }
+  /* line 266, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #interest-section .card {
+    text-decoration: none;
+    color: #282838;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    margin-left: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+    transform: translateX(-15px); }
+    /* line 281, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card:hover {
+      transform: translate(-15px, -5px); }
+    /* line 285, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card .bubble {
+      position: absolute;
+      height: 120px;
+      top: 40px;
+      width: 120px;
+      transform: translateX(50%);
+      margin-left: 30px;
+      border-radius: 50%;
+      background-color: white;
+      text-align: center;
+      font-size: 50px;
+      color: #229bff;
+      line-height: 2.3em;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
+      background-image: url(../images/movie.jpg);
+      background-size: cover;
+      border: 4px solid white; }
+    /* line 304, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card .book {
+      background-image: url(../images/book.jpg);
+      background-position: 50 0%;
+      background-size: 100%; }
+    /* line 310, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card .music {
+      background-image: url(../images/music.jpg);
+      background-position: center;
+      background-size: 175%; }
+    /* line 316, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card .text {
+      padding: 15px;
+      background-color: #ffffff;
+      margin-top: 65px;
+      text-align: center; }
+      /* line 322, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+      #interest-section .card .text h3 {
+        font-weight: bold; }
+      /* line 326, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+      #interest-section .card .text p {
+        color: #93939e;
+        margin-top: 20px;
+        line-height: 1.3em;
+        font-weight: lighter; }
+      /* line 333, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+      #interest-section .card .text .rating {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        color: orange; }
+        /* line 339, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+        #interest-section .card .text .rating span {
+          margin-left: 5px; }
+    /* line 345, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #interest-section .card .rating-text {
+      font-size: 0.8em;
+      margin-top: 10px; }
+
+/* line 354, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-graph-container {
+  padding: 50px;
+  position: relative; }
+
+/* line 359, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-point {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative; }
+
+/* line 367, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-point-border {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  left: -5px;
+  top: -5px; }
+
+/* line 378, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-line {
+  height: 200px;
+  border: 0.5px dashed white;
+  position: absolute;
+  top: 20px;
+  left: 5px; }
+
+/* line 386, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-entity {
+  display: flex;
+  height: 232px; }
+
+/* line 391, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-date {
+  color: white;
+  margin-right: 20px;
+  margin-top: -3px; }
+
+/* line 397, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-name {
+  color: white;
+  margin-left: 20px;
+  margin-top: -3px; }
+
+/* line 403, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-under-name {
+  font-weight: 100;
+  opacity: 0.6;
+  font-size: 0.9em;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 88px; }
+
+/* line 413, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-list-skill {
+  color: white;
+  width: max-content;
+  list-style-type: none;
+  font-weight: 100;
+  margin-top: 78px;
+  margin-left: 80px; }
+  /* line 421, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .cv-list-skill li {
+    margin-top: 1.5em; }
+    /* line 424, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    .cv-list-skill li .check {
+      color: #8BC34A; }
+    /* line 427, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    .cv-list-skill li .uncheck {
+      color: #7b7666; }
+
+/* line 433, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-label {
+  background-color: #00bffe;
+  font-size: 0.9em;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  color: white; }
+
+/* line 441, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.cv-hide {
+  width: calc(100% - 50px);
+  height: 345px;
+  background-color: rgba(42, 42, 56, 0.7);
+  position: absolute;
+  top: 0;
+  color: white;
+  font-size: 0.7em;
+  transition: 0.7s;
+  cursor: pointer; }
+  /* line 452, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .cv-hide:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 135px;
+    height: 0;
+    border-bottom: 1px solid #ffffff;
+    opacity: 1; }
+  /* line 463, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .cv-hide .today {
+    position: absolute;
+    bottom: 10px;
+    left: -29px;
+    display: none; }
+  /* line 470, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .cv-hide .time {
+    position: absolute;
+    bottom: -20px;
+    left: -29px; }
+  /* line 476, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .cv-hide:hover {
+    opacity: 0; }
+
+/* line 483, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+#international-section {
+  padding: 60px 40px 40px 40px;
+  height: 600px;
+  background-color: #e9edf2;
+  position: relative;
+  overflow: hidden; }
+  /* line 490, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section h1 {
+    font-size: 1.7em;
+    margin-left: 10px;
+    font-family: 'Alatsi', sans-serif;
+    text-transform: uppercase; }
+  /* line 497, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .world-svg {
+    width: 100%;
+    height: 600px; }
+  /* line 502, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .world-svg path {
+    fill: #ffffff;
+    stroke: #edecef;
+    transition: 0.2s;
+    cursor: pointer; }
+  /* line 509, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .world-svg path:hover {
+    fill: #008cfe !important;
+    stroke: #008cfe !important; }
+  /* line 514, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .live-country {
+    fill: #00bfff !important;
+    stroke: #00bfff !important; }
+  /* line 519, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .been-country {
+    fill: #292938 !important;
+    stroke: #292938 !important; }
+  /* line 524, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section #country-description {
+    line-height: 1.4em;
+    width: calc(100% + 50px);
+    margin-left: -25px; }
+  /* line 530, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .legend-container {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: 0.8em;
+    line-height: 2em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05); }
+  /* line 543, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .square-legend {
+    border-radius: 4px;
+    padding: 3px 5px 0px 5px;
+    margin-right: 10px;
+    font-size: 0.5em; }
+  /* line 551, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .been {
+    background-color: #00bfff; }
+  /* line 555, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .visited {
+    background-color: #292938; }
+  /* line 560, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .country-source p {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.7em;
+    color: #b5b5b5; }
+  /* line 568, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .country-source a {
+    text-decoration: none;
+    color: #01bffe; }
+  /* line 574, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .info-country-container {
+    width: 20%;
+    background-color: #2a2a38;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 50px 50px 50px 15px;
+    height: max-content; }
+    /* line 582, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #international-section .info-country-container img {
+      border-radius: 5px;
+      width: 125px;
+      height: auto;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05); }
+    /* line 589, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #international-section .info-country-container h4 {
+      color: white;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 20px; }
+    /* line 596, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #international-section .info-country-container h5 {
+      color: white;
+      text-align: center;
+      font-size: 0.8em;
+      line-height: 1.3em;
+      margin-top: 5px; }
+    /* line 604, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #international-section .info-country-container hr {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid white; }
+    /* line 611, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    #international-section .info-country-container p {
+      color: #e9edf2;
+      font-size: 0.7em;
+      margin-top: 10px;
+      text-align: center;
+      font-weight: 100; }
+  /* line 620, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  #international-section .international-h4 {
+    padding-left: 10px;
+    margin-top: 10px;
+    color: #656565;
+    font-weight: lighter;
+    margin-bottom: -10px; }
+
+/* line 629, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.tooltip {
+  display: none;
+  position: absolute;
+  font-size: 0.7em;
+  border: 1px solid #333;
+  background-color: #161616;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff; }
+
+/* line 640, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.tooltip-country {
+  display: none;
+  position: absolute;
+  font-size: 0.7em;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2); }
+
+/* line 651, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.hour-icon {
+  color: orange; }
+
+/* line 655, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+.hire-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  /* let's shape */
+  /* let's animate this */ }
+  /* line 660, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section .hire-button {
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: #00bffe;
+    cursor: pointer;
+    transition: 0.2s; }
+    /* line 669, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+    .hire-section .hire-button:hover {
+      transform: translateY(-5px); }
+  /* line 676, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #000;
+    background: transparent;
+    border: none; }
+  /* line 687, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section .wrap {
+    height: 60px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  /* line 694, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section .box {
+    padding: 1em;
+    height: 60px;
+    text-align: center; }
+  /* line 700, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button {
+    width: 160px;
+    height: 60px;
+    background: #01bffe;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px; }
+  /* line 709, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  /* line 715, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span {
+    color: #fff; }
+  /* line 721, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span.shape {
+    height: 60px;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  /* line 729, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 8px;
+    width: 2px;
+    background: #01bffe;
+    opacity: 0; }
+  /* line 739, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(1) {
+    top: -20px;
+    left: 0;
+    right: 0; }
+  /* line 745, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(2) {
+    bottom: -20px;
+    left: 0;
+    right: 0; }
+  /* line 751, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(3) {
+    top: 0;
+    bottom: 0;
+    left: -10px; }
+  /* line 757, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(4) {
+    top: 0;
+    bottom: 0;
+    right: -10px; }
+  /* line 763, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(5) {
+    top: -20px;
+    left: -70%;
+    right: 0;
+    transform: rotate(-30deg); }
+  /* line 770, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(6) {
+    top: -20px;
+    left: 0;
+    right: -70%;
+    transform: rotate(30deg); }
+  /* line 776, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(7) {
+    bottom: -20px;
+    right: 0;
+    left: -70%;
+    transform: rotate(30deg); }
+  /* line 782, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button span span:nth-of-type(8) {
+    bottom: -20px;
+    left: 0;
+    right: -70%;
+    transform: rotate(-30deg); }
+
+@keyframes bounce {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+  /* line 799, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active {
+    animation: bounce 0.3s ease-out 1; }
+  /* line 803, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(1) {
+    animation: anim1 0.4s ease-out 1; }
+  /* line 806, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(2) {
+    animation: anim2 0.4s ease-out 1; }
+  /* line 809, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(3) {
+    animation: anim3 0.4s ease-out 1; }
+  /* line 812, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(4) {
+    animation: anim4 0.4s ease-out 1; }
+  /* line 815, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(5) {
+    animation: anim5 0.4s ease-out 1; }
+  /* line 818, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(6) {
+    animation: anim6 0.4s ease-out 1; }
+  /* line 821, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(7) {
+    animation: anim7 0.4s ease-out 1; }
+  /* line 824, /Users/noefaure/Desktop/Sites Web/CV-Website/css/style.scss */
+  .hire-section button.active span span:nth-of-type(8) {
+    animation: anim8 0.4s ease-out 1; }
+
+@keyframes anim1 {
+  0% {
+    transform: scaleY(0.5);
+    opacity: 0; }
+  50% {
+    transform: translateY(-10px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: translateY(-20px) scaleY(0.5);
+    opacity: 0; } }
+
+@keyframes anim2 {
+  0% {
+    transform: scaleY(1);
+    opacity: 0; }
+  50% {
+    transform: translateY(10px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: translateY(20px) scaleY(0.5);
+    opacity: 0; } }
+
+@keyframes anim3 {
+  0% {
+    transform: rotate(90deg) scaleX(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(90deg) translateY(10px) scaleX(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(90deg) translateY(20px) scaleX(0.5);
+    opacity: 0; } }
+
+@keyframes anim4 {
+  0% {
+    transform: rotate(90deg) scaleX(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(90deg) translateY(-10px) scaleX(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(90deg) translateY(-20px) scaleX(0.5);
+    opacity: 0; } }
+
+@keyframes anim5 {
+  0% {
+    transform: rotate(-30deg) scaleY(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(-30deg) translateY(-8px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(-30deg) translateY(-16px) scaleY(0.5);
+    opacity: 0; } }
+
+@keyframes anim6 {
+  0% {
+    transform: rotate(30deg) scaleY(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(30deg) translateY(-8px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(30deg) translateY(-16px) scaleY(0.5);
+    opacity: 0; } }
+
+@keyframes anim7 {
+  0% {
+    transform: rotate(30deg) scaleY(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(30deg) translateY(8px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(30deg) translateY(16px) scaleY(0.5);
+    opacity: 0; } }
+
+@keyframes anim8 {
+  0% {
+    transform: rotate(-30deg) scaleY(0.5);
+    opacity: 0; }
+  50% {
+    transform: rotate(-30deg) translateY(8px) scaleY(1.4);
+    opacity: 1; }
+  100% {
+    transform: rotate(-30deg) translateY(16px) scaleY(0.5);
+    opacity: 0; } }
+
+/*# sourceMappingURL=style.css.map */

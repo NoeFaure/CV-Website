@@ -1,0 +1,57 @@
+/* line 3, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+.cookies-banner-container {
+  background-color: white;
+  border-radius: 5px;
+  margin: 2em;
+  max-width: 600px;
+  padding: 2em;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2; }
+  /* line 19, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-size: 1.2em; }
+  /* line 25, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-paragraph {
+    font-weight: normal;
+    color: #93939e;
+    font-size: 0.9em;
+    margin-top: -0.6em;
+    line-height: 1.6em;
+    text-align: justify; }
+  /* line 34, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-image {
+    width: 50px;
+    margin-left: -2em;
+    margin-bottom: -2em;
+    margin-top: -2em;
+    margin-right: 2em;
+    padding: 2em;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f6f8fc; }
+  /* line 45, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-image img {
+    position: absolute;
+    width: 120px;
+    top: -15px;
+    left: -20px; }
+  /* line 52, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+  .cookies-banner-container .cookies-close {
+    font-weight: normal;
+    color: #cecece;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    cursor: pointer;
+    transition: color 0.2s; }
+    /* line 61, /Users/noefaure/Desktop/Sites Web/CV-Website/css/components/cookies-banner.scss */
+    .cookies-banner-container .cookies-close:hover {
+      background-color: white;
+      color: #2a2a3f; }
+
+/*# sourceMappingURL=cookies-banner.css.map */
