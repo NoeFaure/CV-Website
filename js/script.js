@@ -60,3 +60,16 @@ function openInNewTab(url) {
   var win = window.open(url, '_blank');
   win.focus();
 }
+
+// Skills bar animation
+$(window).scroll(function(){
+  var wh = $(window).height()-50;
+    if($(window).scrollTop() > $('#html').offset().top-wh){
+    $('#html').addClass('html');
+		$('#sass').addClass('sass');
+		$('#javascript').addClass('javascript');
+		$('#ror').addClass('ror');
+		$('#photoshop').addClass('photoshop');
+		$('#illustrator').addClass('illustrator');
+  }
+});
