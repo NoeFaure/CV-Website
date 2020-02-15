@@ -73,3 +73,20 @@ $(window).scroll(function(){
 		$('#illustrator').addClass('illustrator');
   }
 });
+
+// Responsive
+	if ($(window).width() < 1165) {
+		 document.getElementById("overlay").style.display = "block";
+	}
+	else {
+		 document.getElementById("overlay").style.display = "none";
+	}
+
+$(window).resize(function() {
+	if ($(window).width() < 1165) {
+		 document.getElementById("overlay").style.display = "block";
+	}
+	else {
+		 document.getElementById("overlay").style.display = "none";
+	}
+});
